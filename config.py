@@ -4,6 +4,7 @@ import os
 DEBUG = True
 
 class Config:
+    SECRET_KEY = 'EEIOUIEWDFEFNDFDSINFWEF'
     MONGO_DBNAME = 'geetest_dining'
     MONGO_URI = 'mongodb://diningroom:dining08room@ds155727.mlab.com:55727/geetest_dining'
     @staticmethod
